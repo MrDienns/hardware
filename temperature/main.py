@@ -2,4 +2,5 @@ from sense_hat import SenseHat
 sense = SenseHat()
 sense.clear()
 
-sense.show_message("2020 is finally over")
+temp = sense.get_temperature()
+print(temp)

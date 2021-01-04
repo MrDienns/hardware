@@ -1,5 +1,6 @@
 from sense_hat import SenseHat
 sense = SenseHat()
+sense.clear()
 
 sense.set_pixel(2, 2, (0, 0, 255))
 sense.set_pixel(4, 2, (0, 0, 255))
